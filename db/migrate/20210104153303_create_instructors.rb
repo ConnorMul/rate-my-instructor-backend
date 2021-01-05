@@ -6,6 +6,7 @@ class CreateInstructors < ActiveRecord::Migration[6.0]
       t.string :bio
       t.string :school
       t.integer :likes
+      t.string :image
 
       t.timestamps
     end

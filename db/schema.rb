@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 2021_01_04_161029) do
     t.string "bio"
     t.string "school"
     t.integer "likes"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
