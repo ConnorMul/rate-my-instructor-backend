@@ -16,6 +16,9 @@ eric = Instructor.create(name: "Eric", years_teaching: 10, bio: Faker::Lorem.sen
 michelle = Instructor.create(name: "Michelle", years_teaching: 4, bio: Faker::Lorem.sentence, school: "Flatiron", likes: 249, image: './imgs/michelle.jpeg')
 ian = Instructor.create(name: "Ian", years_teaching: 5, bio: Faker::Lorem.sentence, school: "Flatiron", likes: 558, image: './imgs/ian.png')
 ethan = Instructor.create(name: "Ethan", years_teaching: 2, bio: Faker::Lorem.sentence, school: "Flatiron", likes: 358, image: './imgs/ethan.jpeg')
+caryn = Instructor.create(name: "Caryn", years_teaching: 10, bio: Faker::Lorem.sentence, school: "Flatiron", likes: 772, image: './imgs/Caryn.jpeg')
+greg = Instructor.create(name: "Greg", years_teaching: 4, bio: Faker::Lorem.sentence, school: "Flatiron", likes: 309, image: './imgs/greg.jpeg')
+jallen = Instructor.create(name: "Jallen", years_teaching: 8, bio: Faker::Lorem.sentence, school: "Flatiron", likes: 250, image: './imgs/Jallen.jpeg')
 
 3.times do 
     Comment.create(content: Faker::Lorem.sentence, agree: 5, user: User.all.sample, instructor: Instructor.all.sample)
