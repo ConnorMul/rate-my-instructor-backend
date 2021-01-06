@@ -29,6 +29,12 @@ class CommentsController < ApplicationController
        comment.update(comment_params)
        render json: comment
     end
+
+    def destroy
+        comment = Comment.find_by(id: params[:id])
+        comment.destroy
+        render json: comment
+    end
     
     private
 
