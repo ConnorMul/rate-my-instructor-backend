@@ -28,7 +28,16 @@ michelle_comment1 = Comment.create(content: "Michelle has such a soothing voice,
 michelle_comment2 = Comment.create(content: "Gives the most breaks!!!", agree: 30, user: connor, instructor: michelle)
 
 ian_comment1 = Comment.create(content: "Ian is so articulate, great instructor 10/10", agree: 50, user: jason, instructor: ian)
+ian_comment2 = Comment.create(content: "This guys lectures... best part of the day", agree: 75, user: connor, instructor: ian)
 
 ethan_comment1 = Comment.create(content: "Ethan is always there to help right when you need it!", agree: 58, user: connor, instructor: ethan)
 
 caryn_comment1 = Comment.create(content: "She doesn't even go here", agree: 5000, user: jason, instructor: caryn)
+caryn_comment2 = Comment.create(content: "We miss you Caryn!!!!!", agree: 353, user: connor, instructor: caryn)
+
+greg_comment1 = Comment.create(content: "Greg is the chillest.. and the illest", agree: 301, user: connor, instructor: greg)
+greg_comment2 = Comment.create(content: "No one teaches you Rails like Greg", agree: 208, user: jason, instructor: greg)
+
+jallen_comment1 = Comment.create(content: "He only was with us for like a week but he was cool or whatever", agree: 87, user: jason, instructor: jallen)
+
+steven_comment1 = Comment.create(content: "Even though he left he is still a pretty cool guy... he knit me the hat I'm wearing", agree: 65, user: connor, instructor: steven)

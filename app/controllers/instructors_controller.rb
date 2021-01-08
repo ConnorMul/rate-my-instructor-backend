@@ -29,7 +29,7 @@ class InstructorsController < ApplicationController
     private
 
     def instructor_params
-        params.permit(:name, :years_teaching, :bio, :school, :likes) 
+        params.permit(:name, :years_teaching, :bio, :school, :likes, :image) 
     end
 
 end
